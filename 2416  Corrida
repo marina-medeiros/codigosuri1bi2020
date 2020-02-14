@@ -1,0 +1,12 @@
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    string[] p1 = Console.ReadLine().Split(' ');
+    int A = int.Parse(p1[0]);
+    int B = int.Parse(p1[1]);
+    int C = A%B;
+    Console.WriteLine ($"{C}");
+
+  }
+}
