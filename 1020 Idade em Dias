@@ -1,0 +1,14 @@
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+  int total = int.Parse(Console.ReadLine());
+  int anos = total / 365 ;
+  int restoanos = total % 365 ;
+  int meses = restoanos / 30 ;
+  int dias = restoanos % 30 ;
+
+  Console.WriteLine($"Anos:{anos}, Meses:{meses}, Dias:{dias}") ;
+
+  }
+}
