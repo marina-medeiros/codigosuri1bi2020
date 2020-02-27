@@ -1,0 +1,13 @@
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+  string[] p1 = Console.ReadLine().Split(' ');
+  string a = (p1[0]);
+  string b = (p1[1]);
+
+  string c = a + b ;
+
+  Console.WriteLine($"{c}");
+  }
+}
